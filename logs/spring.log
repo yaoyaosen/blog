@@ -1,0 +1,23 @@
+2019-06-18 00:48:57.137  INFO 7444 --- [main] xyz.mryyaos.blog.BlogApplication         : Starting BlogApplication on DESKTOP-I75F38O with PID 7444 (H:\WORKSPACE\project\blog\out\production\classes started by 尧尧森 in H:\WORKSPACE\project\blog)
+2019-06-18 00:48:57.143  INFO 7444 --- [main] xyz.mryyaos.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2019-06-18 00:48:58.734  WARN 7444 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[xyz.mryyaos.blog]' package. Please check your configuration.
+2019-06-18 00:48:58.816  INFO 7444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-18 00:48:58.821  INFO 7444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-18 00:48:58.878  INFO 7444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-06-18 00:48:59.480  INFO 7444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f00c757] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 00:49:00.391  INFO 7444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8044 (http)
+2019-06-18 00:49:00.433  INFO 7444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 00:49:00.434  INFO 7444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-06-18 00:49:00.456  INFO 7444 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2019-06-18 00:49:00.457  INFO 7444 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-18 00:49:00.457  INFO 7444 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 00:49:00.458  INFO 7444 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 00:49:01.586  INFO 7444 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-18 00:49:01.811  INFO 7444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-18 00:49:01.811  INFO 7444 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4487 ms
+2019-06-18 00:49:02.420  INFO 7444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 00:49:03.504  INFO 7444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8044 (http) with context path ''
+2019-06-18 00:49:03.512  INFO 7444 --- [main] xyz.mryyaos.blog.BlogApplication         : Started BlogApplication in 7.71 seconds (JVM running for 11.04)
+2019-06-18 00:53:40.041  INFO 7444 --- [http-nio-8044-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-18 00:53:40.042  INFO 7444 --- [http-nio-8044-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-18 00:53:40.062  INFO 7444 --- [http-nio-8044-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
