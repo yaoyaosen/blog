@@ -1,9 +1,11 @@
 package xyz.mryyaos.blog.controller.blogs;
 
+import javax.annotation.Resource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import xyz.mryyaos.blog.service.UserService;
 
 /**
  *  @author 尧尧森
@@ -13,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/user")
 public class UserController {
 
-  private UserService userService;
+  @Resource  private UserService userService;
 
   /**
    * 获取用户信息
